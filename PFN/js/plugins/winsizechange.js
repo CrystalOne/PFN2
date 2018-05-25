@@ -30,7 +30,7 @@
  *  Fullscreen false            #退出全屏
  */
 
-var params = PluginManager.parameters("MND_ChangeScreenSize");
+var params = PluginManager.parameters("winsizechange");
 var isFullScreen = String(params["Full Screen on startup"] || false);
 var screenWidth = Number(params["Screen width"]) || 816;
 var screenHeight = Number(params["Screen height"]) || 624;
